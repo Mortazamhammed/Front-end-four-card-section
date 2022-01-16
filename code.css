@@ -15,7 +15,7 @@ body{
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: -15px auto;
     padding: 50px 30px;
 
 }
@@ -47,12 +47,13 @@ header p{
     border-radius: 7px;
     padding: 30px;
     text-align:right;
+    box-shadow: 4px 5px 8px 0 #cac5c5   , -4px 5px 5px 0 #cac5c5;
 }
 .box .box-text{
     text-align: left;
     margin-bottom: 50px;
 }
-.box-text h5{
+.box-text h4{
     font-size: 20px;
     color: hsl(234, 12%, 34%);
     margin-bottom: 10px;
